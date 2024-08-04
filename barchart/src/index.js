@@ -4,7 +4,7 @@ var myChart = echarts.init(document.getElementById("barchart"));
 
 myChart.setOption({
   title: {
-    text: "My BarChart",
+    text: "BarChart",
   },
   tooltip: {},
   legend: {

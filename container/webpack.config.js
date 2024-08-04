@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   devServer: {
-    port: 3001,
+    port: 3002,
   },
   plugins: [
     new HtmlWebpackPlugin({
