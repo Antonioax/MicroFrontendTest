@@ -1,6 +1,6 @@
 import * as echarts from "echarts";
 
-var myChart = echarts.init(document.getElementById("barchart"));
+var myChart = echarts.init(document.getElementById("barchart-dev"));
 
 myChart.setOption({
   title: {
