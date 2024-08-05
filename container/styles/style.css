@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(248, 252, 191);
+  color: rgb(59, 59, 35);
+
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main-section {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -12,6 +12,9 @@ myChart.setOption({
       name: "sales",
       type: "bar",
       data: [5, 20, 36, 10, 10, 20],
+      itemStyle: {
+        color: "#33FF57",
+      },
     },
   ],
 });

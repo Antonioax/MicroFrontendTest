@@ -1,10 +1,24 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 
+const path = require("path");
+
 module.exports = {
   mode: "development",
   devServer: {
     port: 3000,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+  output: {
+    filename: "bundle.js", // Output file name
+    path: path.resolve(__dirname, "dist"), // Output directory
   },
   plugins: [
     new HtmlWebpackPlugin({
