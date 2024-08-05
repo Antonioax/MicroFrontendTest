@@ -18,5 +18,4 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
-  watch: true,
 };
