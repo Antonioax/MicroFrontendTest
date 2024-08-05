@@ -3,13 +3,6 @@ import * as echarts from "echarts";
 var myChart = echarts.init(document.getElementById("barchart-dev"));
 
 myChart.setOption({
-  title: {
-    text: "BarChart",
-  },
-  tooltip: {},
-  legend: {
-    data: ["sales"],
-  },
   xAxis: {
     data: ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"],
   },

@@ -13,9 +13,10 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        barchart: "barchart@http://localhost:3001/remoteEntry.js"
-      }
-    })
+        barchart: "barchart@http://localhost:3001/remoteEntry.js",
+        linechart: "linechart@http://localhost:3002/remoteEntry.js",
+      },
+    }),
   ],
   watch: true,
 };
